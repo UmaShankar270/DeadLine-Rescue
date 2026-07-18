@@ -1,0 +1,57 @@
+.task-card{
+
+    background:white;
+
+    border-radius:10px;
+
+    padding:20px;
+
+    margin-top:20px;
+
+    box-shadow:0 2px 10px rgba(0,0,0,.15);
+
+    transition:.3s;
+
+}
+
+.task-card:hover{
+
+    transform:translateY(-4px);
+
+}
+
+.task-card h3{
+
+    color:#2563eb;
+
+}
+
+.task-card button{
+
+    padding:10px 15px;
+
+    border:none;
+
+    border-radius:5px;
+
+    cursor:pointer;
+
+}
+
+.edit-btn{
+
+    background:#10b981;
+
+    color:white;
+
+}
+
+.delete-btn{
+
+    background:#ef4444;
+
+    color:white;
+
+    margin-left:10px;
+
+}

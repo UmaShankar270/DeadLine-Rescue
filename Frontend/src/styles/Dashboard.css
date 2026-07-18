@@ -1,0 +1,26 @@
+body{
+    margin:0;
+    background:#f3f4f6;
+    font-family:Arial,Helvetica,sans-serif;
+}
+
+.dashboard{
+
+    width:90%;
+    max-width:1100px;
+
+    margin:auto;
+
+    padding:30px;
+
+}
+
+.dashboard h2{
+
+    text-align:center;
+
+    color:#1f2937;
+
+    margin-bottom:25px;
+
+}
