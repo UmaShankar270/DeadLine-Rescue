@@ -1,7 +1,7 @@
 
 import axios from "axios";
 
-const API = "http://localhost:8080/tasks";
+const API = "https://deadline-rescue-ps8b.onrender.com/tasks";
 
 export const getAllTasks = () => axios.get(API);
 

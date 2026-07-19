@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const AI_API = "http://localhost:8080/ai";
+const AI_API = "http://deadline-rescue-ps8b.onrender.com/ai";
 
 export const generateSuggestion = () => {
     return axios.post(`${AI_API}/suggest`);
