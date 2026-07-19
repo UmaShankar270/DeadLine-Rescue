@@ -14,7 +14,7 @@ function AIPlanner() {
         try {
 
             const response = await axios.post(
-                "http://localhost:8080/ai/suggest"
+                "http://deadline-rescue-ps8b.onrender.com/ai/suggest"
             );
 
             setPlan(response.data.response);
