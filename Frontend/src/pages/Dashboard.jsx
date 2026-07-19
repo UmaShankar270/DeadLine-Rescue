@@ -7,7 +7,7 @@ import Analytics from "../components/Analytics";
 import TaskChart from "../components/TaskChart";
 import CalendarView from "../components/CalendarView";
 import AIPlanner from "../components/AIPlanner";
-import AIChat from "../components/AiChat";
+import AIChat from "../components/ChatBot";
 
 import SearchBar from "../components/SearchBar";
 import FilterBar from "../components/FilterBar";
