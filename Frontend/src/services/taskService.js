@@ -1,7 +1,7 @@
 
 import axios from "axios";
 
-const API = "https://deadline-rescue-ps8b.onrender.com/tasks";
+const API = `${import.meta.env.VITE_API_URL}/tasks`;
 
 export const getAllTasks = () => axios.get(API);
 

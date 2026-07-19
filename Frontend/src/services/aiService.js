@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const AI_API = "http://deadline-rescue-ps8b.onrender.com/ai";
+const AI_API = `${import.meta.env.VITE_API_URL}/ai`;
 
 export const generateSuggestion = () => {
     return axios.post(`${AI_API}/suggest`);

@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API = "http://deadline-rescue-ps8b.onrender.com/email";
+const API =`${import.meta.env.VITE_API_URL}/email`;
 
 export const sendReminder = (id, email) => {
 

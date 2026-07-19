@@ -14,7 +14,7 @@ function AIPlanner() {
         try {
 
             const response = await axios.post(
-                "http://deadline-rescue-ps8b.onrender.com/ai/suggest"
+                `${import.meta.env.VITE_API_URL}/ai/suggest`
             );
 
             setPlan(response.data.response);
